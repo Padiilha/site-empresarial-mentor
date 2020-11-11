@@ -1,0 +1,84 @@
+html{
+  font-family: sans-serif;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+header{
+  background-color: #252525;
+  color: white;
+}
+section{
+  color: white;
+}
+#div_nav{
+  background-color: #DC5040;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  flex-flow: nowrap;
+  justify-content:space-around;
+}
+#div_nav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#div_nav a:hover{
+  background-color: #ddd;
+  color: black;
+}
+.div_body_h1{
+  display: flex;
+  flex-flow: nowrap;
+  justify-content:space-around;
+  background-color: #333;
+  font-weight: bold;
+}
+.p_body{
+  text-align: justify;
+  line-height: 150%;
+  font-size: 17px;
+  width: 750px;
+  margin: auto;
+}
+#contatoLocalizacao{
+  background-color: #252525;
+  color: white;
+}
+.div_body_nowrap{
+  display: flex;
+  flex-flow: nowrap;
+}
+.div_body_p{
+  background-image: linear-gradient(#333, #656565);
+}
+.div_body_h2{
+  display: flex;
+  flex-flow: nowrap;
+  justify-content:space-around;
+  background-color: #DC5040;
+  font-weight: bold;
+}
+.div_body_h3{
+  display: flex;
+  flex-flow: nowrap;
+  justify-content:space-around;
+  background-color: #000;
+  font-weight: bold;
+}
+#a_body a{
+  text-decoration: none; //me nota
+  overflow: hidden; //me nota
+}
+ul{
+  line-height: 200%;
+}
+.td_body{
+  color: #e00000;
+}
