@@ -57,6 +57,7 @@ section{
 }
 .div_body_p{
   background-image: linear-gradient(#333, #656565);
+  align: center;
 }
 .div_body_h2{
   display: flex;
